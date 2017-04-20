@@ -2,7 +2,7 @@
 
 ## Personal Details
 Email
-: [ben@benmunro.com](ben@benmunro.com)
+: [ben@benmunro.com](mailto:ben@benmunro.com)
 
 Phone
 : +64 27 393 3605
