@@ -1,0 +1,63 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 800px;
+    margin: auto;
+    background: #FFF;
+    padding: 10px;
+}
+h1 {
+    font-size: 55px;
+    color: #444;
+    text-align: center;
+}
+h2 {
+    color: #333;
+}
+h2:before {
+    content: "";
+    display: inline-block;
+    margin-right: 1%;
+    width: 19%;
+    height: 10px;
+    background-color: #CCC;
+}
+.job-header {
+    line-height: 22px;
+}
+h3 {
+    margin: 0;
+    padding: 0;
+}
+dl {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+dl dt,
+dl dd {
+    margin-bottom: 10px;
+}
+dl dt {
+    flex: 0 0 20%;
+    font-weight: bold;
+    font-size: 90%;
+}
+dl dd {
+    flex: 0 0 80%;
+    margin-left: auto;
+}
+.technologies {
+    font-size: 80%;
+    color: #666;
+    margin-top: 0;
+}
+a {
+    text-decoration: none;
+    color: #555;
+}
+a:hover,
+a:active {
+    background-color: #333;
+    color: #FFF;
+}
