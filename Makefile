@@ -6,7 +6,7 @@ RM=/bin/rm
 
 PANDOC=/usr/local/bin/pandoc
 
-PANDOC_OPTIONS=--smart --standalone
+PANDOC_OPTIONS=--standalone --from markdown+smart
 
 PANDOC_HTML_OPTIONS=--to html5 -c style.css
 
