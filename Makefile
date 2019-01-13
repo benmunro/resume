@@ -1,6 +1,6 @@
 SOURCE := resume.md
 
-OUTPUT=$(SOURCE:.md=.html)
+OUTPUT=$(SOURCE:.md=.pdf)
 
 RM=/bin/rm
 
@@ -13,9 +13,12 @@ PANDOC_HTML_OPTIONS=--to html5 -c style.css
 %.html : %.md
 	$(PANDOC) $(PANDOC_OPTIONS) $(PANDOC_HTML_OPTIONS) -o $@ $<
 
+%.pdf : %.html
+	npx chrome-headless-render-pdf --url file://$(CURDIR)/$< --pdf $@
+
 .PHONY: all clean
 
 all : $(OUTPUT)
 
 clean:
-	- $(RM) $(OUTPUT)
+	- $(RM) -f $(OUTPUT) $(SOURCE:.md=.html)
