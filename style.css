@@ -43,6 +43,9 @@ dl dt {
     font-weight: bold;
     font-size: 90%;
 }
+header dl dd {
+    flex: 0 0 30%;
+}
 dl dd {
     flex: 0 0 80%;
     margin-left: auto;
