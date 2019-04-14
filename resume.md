@@ -15,20 +15,22 @@ Visa
 ## Work Experience
 
 [Apr 2017 - Present]{.job-header}
-:   ### Software Developer for Minodes (Telefónica Next)
+:   ### Senior Software Developer for Minodes (Telefónica Next)
 
-    <p class="technologies">Python, PostgreSQL, Docker, Cassandra, AWS</p>
+    <p class="technologies">Python, PostgreSQL, Docker, Cassandra, AWS, Spark</p>
 
     - Built system for processing mobile network data for location insights in AWS. Using Spark on EMR for data processing and Lambda for the API and orchestration.
     - Implemented an ETL system based on Apache Airflow. Created a reporting database for use by the BI team rather than running ad hoc queries against the OLTP system.
     - Introduced CI and reproducible developer environments for projects using Docker and BitBucket Pipelines.
+    - Maintained infrastructure in data centre using SaltStack across a fleet of physical servers and networking equipment.
+    - Tuning of database performance (Postgres and Cassandra) through optimizing queries and configuration.
 
 [Nov 2012 - Mar 2017]{.job-header}
 :   ### Software Developer for Verizon Telematics {.job-header}
 
     <p class="technologies">C#, Javascript, PostgreSQL, RabbitMQ, Docker, Kubernetes</p>
     
-    - Migrated applications to a services based architecture to reduce duplication and improve reliability. 
+    - Lead migration of applications to a services based architecture to reduce duplication and improve reliability.
     - Maintained CI and dev/QA environments used by the rest of the company. This included CI running with Teamcity and then deployments to virtual environments using Chef.
     - Worked on work order management product suite including components providing real time updates to work orders based off GPS points and reporting on driver efficiency.
 
