@@ -49,8 +49,3 @@ Visa
 :   ### Bachelor of Science in Computer Science
 
     <p class="technologies">University of Canterbury, Christchurch, New Zealand</p>
-
-## References
-
-&nbsp; 
-:   Supplied on request.
